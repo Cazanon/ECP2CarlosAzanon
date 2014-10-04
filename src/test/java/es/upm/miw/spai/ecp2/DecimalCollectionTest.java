@@ -19,12 +19,5 @@ public class DecimalCollectionTest {
         assertEquals(2, pt.getX());
         assertEquals(3, pt.getY());
     }
-
-    @Test
-    public void testPunto() {
-        pt = new Point();
-        assertEquals(0, pt.getX());
-        assertEquals(0, pt.getY());
-    }
     
 }

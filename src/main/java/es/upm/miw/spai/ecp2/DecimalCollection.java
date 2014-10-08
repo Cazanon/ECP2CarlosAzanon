@@ -36,7 +36,12 @@ public class DecimalCollection {
     }
     
     public double multiply(){
-    	return 0;
+    	 double higher = 1;
+         for (double item : this.collection) {
+             if (item != 0.0)
+                 higher = higher * item;
+         }
+         return higher;
     }
 
 }

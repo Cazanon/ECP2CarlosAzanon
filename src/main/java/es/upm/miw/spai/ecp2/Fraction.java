@@ -68,7 +68,7 @@ public class Fraction {
     	return new Fraction(f.getNumerator()*this.numerator, f.getDenominator()*this.denominator);
     }
     public boolean isPropia(){
-    	return false;
+    	return this.numerator < this.denominator;
     }
     
     @Override

@@ -34,8 +34,7 @@ public class FractionTest {
     
     @Test
     public void testIsPropia(){
-    	assertEquals(true,fraction.getNumerator()<fraction.getDenominator());
-    	assertEquals(false,fraction.getNumerator()>=fraction.getDenominator());
+    	assertEquals(true,fraction.isPropia());
     }
     
     @Test

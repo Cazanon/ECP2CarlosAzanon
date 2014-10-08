@@ -71,5 +71,10 @@ public class Fraction {
     	return false;
     }
     
+    @Override
+    public boolean equals(Object other){
+    	return this.numerator == ((Fraction)other).numerator && this.denominator == ((Fraction)other).denominator;
+    }
+    
 
 }

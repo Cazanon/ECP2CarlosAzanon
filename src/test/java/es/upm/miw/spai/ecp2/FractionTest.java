@@ -24,5 +24,11 @@ public class FractionTest {
         assertEquals(3.5, fraction.decimal(), 0.01);
     }
 
+    @Test
+    public void testIsPropia(){
+    	assertEquals(true,fraction.getNumerator()<fraction.getDenominator());
+    	assertEquals(false,fraction.getNumerator()>=fraction.getDenominator());
+    }
+    
     
 }

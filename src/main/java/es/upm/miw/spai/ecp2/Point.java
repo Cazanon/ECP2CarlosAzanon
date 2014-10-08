@@ -42,4 +42,8 @@ public class Point {
         return "Point[" + x + "," + y + "]";
     }
     
+    public void modify(int x, int y){
+    	// TODO...
+    }
+    
 }

@@ -24,5 +24,9 @@ public class FractionTest {
         assertEquals(3.5, fraction.decimal(), 0.01);
     }
 
-    
+    @Test
+    public void testIsEquivalente() {
+    	Fraction f = new Fraction(8,2);
+        assertEquals(false, fraction.isEquivalente(f));
+    }
 }

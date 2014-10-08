@@ -28,7 +28,9 @@ public class FractionTest {
 
     public void testIsEquivalente() {
     	Fraction f = new Fraction(8,2);
+    	Fraction f2 = new Fraction(14,4);
         assertEquals(false, fraction.isEquivalente(f));
+        assertEquals(true, fraction.isEquivalente(f2));
     }
     
     public void testIsPropia(){

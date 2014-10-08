@@ -61,7 +61,7 @@ public class Fraction {
     }
     
     public boolean isEquivalente(Fraction f){
-    	return false;
+    	return this.numerator*f.getDenominator() == this.denominator*f.getNumerator();
     }
     
     public Fraction multiply(Fraction f){

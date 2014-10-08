@@ -67,4 +67,9 @@ public class Fraction {
     public Fraction multiply(Fraction f){
     	return new Fraction(f.getNumerator()*this.numerator, f.getDenominator()*this.denominator);
     }
+    public boolean isPropia(){
+    	return false;
+    }
+    
+
 }

@@ -25,8 +25,16 @@ public class FractionTest {
     }
 
     @Test
+
     public void testIsEquivalente() {
     	Fraction f = new Fraction(8,2);
         assertEquals(false, fraction.isEquivalente(f));
     }
+    
+    public void testIsPropia(){
+    	assertEquals(true,fraction.getNumerator()<fraction.getDenominator());
+    	assertEquals(false,fraction.getNumerator()>=fraction.getDenominator());
+    }
+    
+    
 }

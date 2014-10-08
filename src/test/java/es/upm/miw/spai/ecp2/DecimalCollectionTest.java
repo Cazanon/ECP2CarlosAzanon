@@ -30,5 +30,8 @@ public class DecimalCollectionTest {
         assertEquals(17.3, collection.sum(), 0.1);
     } 
    
-
+    @Test
+    public void testMultiply(){
+    	assertEquals(74.8, collection.multiply(), 0.1);
+    }
 }

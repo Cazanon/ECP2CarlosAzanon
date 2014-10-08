@@ -34,5 +34,9 @@ public class DecimalCollection {
         }
         return higher;
     }
+    
+    public double multiply(){
+    	return 0;
+    }
 
 }
